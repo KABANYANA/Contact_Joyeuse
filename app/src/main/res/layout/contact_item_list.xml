@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivContact"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         tools:text="Name"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/ivContact"
+        app:layout_constraintTop_toTopOf="@+id/ivContact" />
 
     <TextView
         android:id="@+id/tvPhoneNumber"
@@ -34,7 +34,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         tools:text="phone"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/ivContact"
         app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
     <TextView
@@ -44,6 +44,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         tools:text="email"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/ivContact"
         app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
 </androidx.constraintlayout.widget.ConstraintLayout>
